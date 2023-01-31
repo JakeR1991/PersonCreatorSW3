@@ -17,5 +17,15 @@ public class Main {
         System.out.println("Age: " + person2.getAge());
         System.out.println("Height: " + person2.getHeight());
         System.out.println("Weight: " + person2.getWeight());
+        System.out.println();
+        // call growOlder method on James
+        person1.growOlder();
+
+        // print James details after calling growOlder method
+        System.out.println("Person Details after calling growOlder method: ");
+        System.out.println("Name: " + person1.getName());
+        System.out.println("Age: " + person1.getAge());
+        System.out.println("Height: " + person1.getHeight());
+        System.out.println("Weight: " + person1.getWeight());
     }
 }

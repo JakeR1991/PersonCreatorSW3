@@ -53,4 +53,14 @@ public class Person {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    // behavioural method to increase age and decrease height by 1 year and 1 cm respectively
+    public void growOlder() {
+        // increase age by 1 year
+        age++;
+        // decrease height by 1 cm
+        height--;
+        // decrease weight by 0.5 lbs
+        weight -= 0.5;
+    }
 }
